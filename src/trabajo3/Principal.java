@@ -17,8 +17,9 @@ public class Principal {
     public static void main(String[] args) {
        var v1 = new VentanaInscripccion("INSCRIBETE");
         v1.setVisible(true);
-       var v2=new VentanaDatos("DATOS PERSONALES");
-       v2.setVisible(true);
+        
+       var v3=new VentanaInformacion ("INFORMACION DE CARRERA");
+       v3.setVisible(true);
     }
     
 }
